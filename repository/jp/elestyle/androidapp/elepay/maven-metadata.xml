@@ -3,10 +3,11 @@
   <groupId>jp.elestyle.androidapp</groupId>
   <artifactId>elepay</artifactId>
   <versioning>
-    <release>1.2.14-beta</release>
+    <release>1.2.15-beta</release>
     <versions>
       <version>1.2.14-beta</version>
+      <version>1.2.15-beta</version>
     </versions>
-    <lastUpdated>20190628091505</lastUpdated>
+    <lastUpdated>20190703052307</lastUpdated>
   </versioning>
 </metadata>
