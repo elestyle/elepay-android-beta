@@ -3,7 +3,7 @@
   <groupId>jp.elestyle.androidapp</groupId>
   <artifactId>elepay</artifactId>
   <versioning>
-    <release>1.6.1-beta2</release>
+    <release>1.6.1-beta3</release>
     <versions>
       <version>1.2.14-beta</version>
       <version>1.2.15-beta</version>
@@ -28,7 +28,8 @@
       <version>1.6.0-beta2</version>
       <version>1.6.1-beta1</version>
       <version>1.6.1-beta2</version>
+      <version>1.6.1-beta3</version>
     </versions>
-    <lastUpdated>20191129110750</lastUpdated>
+    <lastUpdated>20191225070011</lastUpdated>
   </versioning>
 </metadata>
