@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.elestyle.androidapp",
+    "module": "elepay",
+    "version": "2.0.4-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ivxh2tkjbnh4hkxe3xyz6fqz2e"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "elepay-2.0.4-beta01.aar",
+          "url": "elepay-2.0.4-beta01.aar",
+          "size": 2193121,
+          "sha512": "c4686f4eb825e3e131b8732c445f173dd033247e16a159d14d6c9b69c8e0d8e4a96517ed286f2ef2fa5292ea0a998aedec2585a12dcb2077cb96ced441ef9069",
+          "sha256": "dd0ec699c5ed5ec99497068db12e92c58256f5595e4c44e7a50d89ddd4b4adab",
+          "sha1": "20d0559acb26c1041c2c7d14686e74469785b43c",
+          "md5": "ccafe5f0cdef2200759322966fdab7d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "14.4.1"
+          }
+        },
+        {
+          "group": "com.braintreepayments.api",
+          "module": "braintree",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "19.4.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-safetynet",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-2.0.4-beta01.aar",
+          "url": "elepay-2.0.4-beta01.aar",
+          "size": 2193121,
+          "sha512": "c4686f4eb825e3e131b8732c445f173dd033247e16a159d14d6c9b69c8e0d8e4a96517ed286f2ef2fa5292ea0a998aedec2585a12dcb2077cb96ced441ef9069",
+          "sha256": "dd0ec699c5ed5ec99497068db12e92c58256f5595e4c44e7a50d89ddd4b4adab",
+          "sha1": "20d0559acb26c1041c2c7d14686e74469785b43c",
+          "md5": "ccafe5f0cdef2200759322966fdab7d5"
+        }
+      ]
+    }
+  ]
+}
