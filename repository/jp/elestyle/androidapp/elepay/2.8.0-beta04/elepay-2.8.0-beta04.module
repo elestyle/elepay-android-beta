@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.elestyle.androidapp",
+    "module": "elepay",
+    "version": "2.8.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-2.8.0-beta04.aar",
+          "url": "elepay-2.8.0-beta04.aar",
+          "size": 1831868,
+          "sha512": "59c3932862e248ce014cbb015b47d62d6b978f2b0481afca51b153a1e0bb33f7375ddcc0756bb5d45800dbc4e1e0b6e328d55a941881d5e071d715adf4f17fbd",
+          "sha256": "3f87bdc929285fa6317e49b97f1b1ac8495eaa792bc01dd567e01cfcce75df37",
+          "sha1": "0f3d4c5ca25776c58718d3cc6b029874ec980955",
+          "md5": "1cb5798eb7da9c7e23425573e60b6256"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "19.1.0"
+          }
+        },
+        {
+          "group": "com.braintreepayments.api",
+          "module": "braintree",
+          "version": {
+            "requires": "3.17.4"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "20.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-safetynet",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-2.8.0-beta04.aar",
+          "url": "elepay-2.8.0-beta04.aar",
+          "size": 1831868,
+          "sha512": "59c3932862e248ce014cbb015b47d62d6b978f2b0481afca51b153a1e0bb33f7375ddcc0756bb5d45800dbc4e1e0b6e328d55a941881d5e071d715adf4f17fbd",
+          "sha256": "3f87bdc929285fa6317e49b97f1b1ac8495eaa792bc01dd567e01cfcce75df37",
+          "sha1": "0f3d4c5ca25776c58718d3cc6b029874ec980955",
+          "md5": "1cb5798eb7da9c7e23425573e60b6256"
+        }
+      ]
+    }
+  ]
+}
